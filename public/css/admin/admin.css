@@ -1,0 +1,59 @@
+body{
+  padding-bottom:0 !important;
+}
+.action-buttons {
+	margin-right:3px;
+	background-size: 25px 25px !important;
+    min-width: 28px;
+    min-height: 30px;
+    border: none;
+    outline:  none !important;
+}
+.action-buttons:hover {
+	opacity:0.5;
+}
+.action-buttons:active {
+	opacity:1;
+	background-size: 20px 20px !important;
+	background-position: 2px 3px !important;
+	font-size: 0.9rem;
+}
+.edit-button {
+	background: url('/icons/edit2.ico') no-repeat;
+}
+.delete-button {
+	background: url('/icons/delete2.ico') no-repeat;
+}
+.info-button {
+	background: url('/icons/inf2.ico') no-repeat;
+}
+.add-button {
+	background: url('/icons/edit_add_5626.ico') no-repeat;
+	padding-left: 31px;
+    padding-bottom: 10px;
+}
+.save-button {
+	background: url('/icons/check2.ico') no-repeat;
+	padding-left: 31px;
+    padding-bottom: 10px;
+}
+.delete-all-button {
+	background: url(/icons/delete1.ico) no-repeat;
+    padding-left: 31px;
+    padding-bottom: 5px;
+    background-size: 19px 19px !important;
+    background-position-x: 6px;
+    background-position-y: 3px;
+}
+.spinner-border {
+	width: 23px;
+    height: 23px;
+    vertical-align: inherit;
+    margin-top: 2px;
+}
+#loader-only {
+	display:none;
+}
+#loader-only .modal-body {
+	border-radius: 10px;
+}
